@@ -1,2 +1,2 @@
-# masdtersoft-address-magento
-Mastersoft Address Autocomplete for Magento 2
+# mastersoft-address-magento
+Mastersoft Address Autocomplete extension module for Magento 2
