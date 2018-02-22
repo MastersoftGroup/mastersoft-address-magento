@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<Mastersoft_AddressWidget>
+			<settings>
+				<url>https://hosted.mastersoftgroup.com</url>
+				<widget_options>{ singleLineHitNumber: 5, caseType: 'TITLE' }</widget_options>
+				<widget_options_au>{ sot: 'GNAF' }</widget_options_au>
+				<widget_options_nz>{ sot: 'NZPAF' }</widget_options_nz>
+				<enable>1</enable>
+			</settings>
+		</Mastersoft_AddressWidget>
+	</default>
+</config>
