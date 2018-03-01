@@ -3,14 +3,17 @@
   	"description": "A Magento 2 Address Autocomplete module for Checkout and Customer Address",
   	"type": "magento2-module",
   	"version": "1.0.0",
-  	"require": {
-		"php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
-  	},
-	"minimum-stability": "beta",
   	"license": [
 		"OSL-3.0",
 		"AFL-3.0"
   	],
+	"authors": [
+		{
+			"name": "Mastersoft",
+			"email": "support@mastersoftgroup.com",
+			"homepage": "https://www.mastersoftgroup.com/"
+		}
+	],
   	"autoload": {
 		"files": [ "Mastersoft/AddressWidget/registration.php" ],
 		"psr-4": {

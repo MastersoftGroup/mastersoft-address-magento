@@ -32,13 +32,7 @@ class Data extends AbstractHelper
 
 	public function getConfig($field)
 	{		
-		//"Mastersoft_AddressWidget/settings/"
 		return $this->scopeConfig->getValue(self::XML_PATH_ADDRESSWIDGET .'settings/'. $field, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
-
-//		return $this->scopeConfig->getValue(
-//			"Mastersoft_AddressWidget/settings/" . $field, 
-//			\Magento\Store\Model\ScopeInterface::SCOPE_STORE
-//		);
 	}
 
 	public function isEnable()
