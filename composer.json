@@ -15,9 +15,9 @@
 		}
 	],
   	"autoload": {
-		"files": [ "Mastersoft/AddressWidget/registration.php" ],
+		"files": [ "registration.php" ],
 		"psr-4": {
-			"Mastersoft\\AddressWidget\\": "Mastersoft/AddressWidget"
+			"Mastersoft\\AddressWidget\\": ""
 		}
 	}
 }
