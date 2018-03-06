@@ -10,9 +10,11 @@ class Uninstall implements UninstallInterface
 {
 	public function uninstall(SchemaSetupInterface $setup, ModuleContextInterface $context)
 	{
-		$installer = $setup;
-		$installer->startSetup();
-		//$setup->getConnection()->query("DELETE FROM core_config_data WHERE path LIKE 'Mastersoft_AddressWidget/%'");
-		$installer->endSetup();
+		$setup->startSetup();
+		
+		$output->writeln("<info>Removing related config data from database</info>");
+		$setup->getConnection()->query("DELETE FROM core_config_data WHERE path LIKE 'Mastersoft_AddressWidget/%'");
+		
+		$setup->endSetup();
 	}
 }
