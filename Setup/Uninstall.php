@@ -12,7 +12,6 @@ class Uninstall implements UninstallInterface
 	{
 		$setup->startSetup();
 		
-		$output->writeln("<info>Removing related config data from database</info>");
 		$setup->getConnection()->query("DELETE FROM core_config_data WHERE path LIKE 'Mastersoft_AddressWidget/%'");
 		
 		$setup->endSetup();
