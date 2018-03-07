@@ -149,7 +149,7 @@ Stores --> Configuration --> Services --> Mastersoft Address
 
 Get your free licence key [here](https://hosted.mastersoftgroup.com/console/#/).
 
-To configure the Widget Options, here is the full list of (FeatureOption)(http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption) available.
+To configure the Widget Options, here is the full list of [FeatureOption](http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption) available.
 
 
 
