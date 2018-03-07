@@ -2,7 +2,9 @@
 Mastersoft Address Autocomplete extension or module for Magento2
 
 It is recommended to backup the existing composer.json in your Magento2 Home directory:
-`/var/www/html# cp composer.json composer.json.old`
+```
+/var/www/html# cp composer.json composer.json.old
+```
 
 ## Composer Installation
 1. Make sure git is installed: `apt-get install git`
