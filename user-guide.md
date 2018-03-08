@@ -150,6 +150,15 @@ Following these steps will fully uninstall this module: clean the module code, d
    DELETE FROM core_config_data WHERE path like 'Mastersoft_AddressWidget/%';
    ```
   
+4. Remove module reference `Mastersoft_AddressWidget` in `app/etc/config.php`.
+
+5. Compile the code and clear the cache
+   ```
+   php bin/magento setup:upgrade
+   php bin/magento cache:flush
+   ```
+   
+  
 ## Configuration
 In Magento Admin Dashboard of your Store: `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
 
