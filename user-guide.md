@@ -12,6 +12,8 @@ Mastersoft Address Autocomplete extension module for Magento2
 - Enable/Disable the module in Magento2 Admin
 
 ## Installation
+Go to your Magento2 Home (usually is in `/var/www/html` directory).
+
 It is recommended to backup the existing composer.json in your Magento2 Home directory:
 ```bash
 /var/www/html# cp composer.json composer.json.old
@@ -56,10 +58,16 @@ It is available in both [GitHub](https://github.com/MastersoftGroup/mastersoft-a
 If successful, you should find the module source in `/var/www/html/vendor/mastersoft/address-widget/` directory.
 
 ### Manual Installation
-  1. Download the zip file in `ZIP` directory.
-  2. Unzip it in your Magento2 Home directory, it will merge with existing directories and files.
+1. Download the zip file in `ZIP` directory.
+2. Unzip it in your Magento2 Home directory, it will merge with existing directories and files.
 
 You should find the module source in `/var/www/html/app/code/Mastersoft/AddressWidget/` directory.
+   
+Alternatively, you can also use the zip file downloaded from GitHub:
+1. In GitHub -> click `Clone or download` button on top right corner -> click `Download ZIP` link in GitHub
+2. In Magento2 Home, create sub-directories `app/code/Mastersoft/AddressWidget/`.
+3. Unzip the content of the zip file to `app/code/Mastersoft/AddressWidget/` directory. You should see `composer.json` and `registration.php` files directly in this directory.
+
 
 ### Post Installation
 These steps must be followed after [Composer Installation](#composer-installation) or [Manual Installation](#manual-installation) steps above.
