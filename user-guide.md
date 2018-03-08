@@ -145,7 +145,7 @@ Following these steps will fully uninstall this module: clean the module code, d
 ## Configuration
 In Magento Admin Dashboard of your Store: `Stores -> Configuration -> Services -> Mastersoft Address`.
 
-- `Licence Key` - **Mandatory**
+- **Licence Key** (Mandatory)
   
   Default value: blank/empty. 
   
@@ -153,25 +153,25 @@ In Magento Admin Dashboard of your Store: `Stores -> Configuration -> Services -
   
   **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**
 
-- `URL` - **Mandatory**
+- **URL** (Mandatory)
   
   Default value: `https://hosted.mastersoftgroup.com`
   
-- `Default Widget Options`
+- **Default Widget Options**
   
   Generic Widget Options for both AUSTRALIA and NEW ZEALAND.
   
   Default value: `{ singleLineHitNumber: 5, caseType: 'TITLE' }`
 
-- `Widget Options for AUSTRALIA`
+- **Widget Options for AUSTRALIA**
 
   Default value: `{ sot: 'GNAF' }`
 
-- `Widget Options for NEW ZEALAND`
+- **Widget Options for NEW ZEALAND**
   
   Default value: `{ sot: 'NZPAF' }`
 
-- `Enable Module`
+- **Enable Module**
   
   Default value: `Yes`
 
