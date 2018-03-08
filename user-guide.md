@@ -113,10 +113,12 @@ Following these steps will fully uninstall this module: clean the module code, d
 
 1. Disable `Mastersoft_AddressWidget` module by following [Disabling/Enabling Module](#disablingenabling-module) using **Magento Command** steps.
 
-2. Uninstall module: `php bin/magento module:uninstall Mastersoft_AddressWidget -r -c`.
-   The parameter `-r` or `--remove-data` is important to remove the relevant configuration data stored in the database.
-
-   Other optional parameters:
+2. Uninstall module: 
+   ```
+   php bin/magento module:uninstall Mastersoft_AddressWidget -r -c
+   ```
+   - `-r` or `--remove-data`: very important to remove the relevant configuration data stored in the database
+   - `-c` or `--clear-static-content`: remove the static content
    - `--backup-db`: backup the Magento2 database
    - `--backup-code`: backup Magento file system (excluding `var` and `pub/static` directories)
    - `--backup-media`: backup `pub/media` directory
@@ -145,7 +147,7 @@ Following these steps will fully uninstall this module: clean the module code, d
    - Delete module configuration: `DELETE FROM core_config_data WHERE path like 'Mastersoft_AddressWidget/%'`
   
 ## Configuration
-In Magento Admin Dashboard of your Store: `Stores -> Configuration -> Services -> Mastersoft Address`.
+In Magento Admin Dashboard of your Store: `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
 
 - **Licence Key** (Mandatory)
   
