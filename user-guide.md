@@ -60,7 +60,7 @@ If successful, you should find the module source in `/var/www/html/vendor/master
 You should find the module source in `/var/www/html/app/code/Mastersoft/AddressWidget/` directory.
 
 ### Post Installation
-These steps must be followed after **Composer Installation** or **Manual Installation** steps above.
+These steps must be followed after [Composer Installation](#composer-installation) or [Manual Installation](#manual-installation) steps above.
 
 1. Verify `Mastersoft_AddressWidget` module is installed properly: `php bin/magento module:status`. It is now should be listed in the  Disabled Modules.
 
@@ -80,7 +80,7 @@ These steps must be followed after **Composer Installation** or **Manual Install
    chmod -R 777 app/ var/ pub/ generated/ 
    rm -rf var/cache/* var/page_cache/*
    ```
-7. Update Mastersoft Address **Configuration**.
+7. Update Mastersoft Address [Configuration](#configuration).
 
 ## Disabling/Enabling Module
 There are 2 ways to disable/enable this module:
@@ -100,7 +100,7 @@ There are 2 ways to disable/enable this module:
    php bin/magento module:status
    ```
 
-  You can enable the module easily by following the **Post Installation** steps.
+  You can enable the module easily by following the [Post Installation](#post-installation) steps.
 
 ## Uninstallation
 
@@ -109,7 +109,7 @@ Following these steps will fully uninstall this module: clean the module code, d
 ### Composer Uninstallation
 **This will work only if the module was installed using Composer.**
 
-1. Disable `Mastersoft_AddressWidget` module by following **Disabling/Enabling Module Using Magento Command** steps.
+1. Disable `Mastersoft_AddressWidget` module by following [Disabling/Enabling Module](#disablingenabling-module) using **Magento Command** steps.
 
 2. Uninstall module: `php bin/magento module:uninstall Mastersoft_AddressWidget -r -c`.
    The parameter `-r` or `--remove-data` is important to remove the relevant configuration data stored in the database.
@@ -121,7 +121,7 @@ Following these steps will fully uninstall this module: clean the module code, d
    
    These backup files will be stored in `var/backup/` directory.
 
-   If the module was not installed using Composer, running this command will give an error. Continue the uninstallation by following the **Manual Uninstallation** steps.
+   If the module was not installed using Composer, running this command will give an error. Continue the uninstallation by following the [Manual Uninstallation](#manual-uninstallation) steps.
 
 3. Update database: `php bin/magento setup:upgrade`.
 
@@ -132,7 +132,7 @@ Following these steps will fully uninstall this module: clean the module code, d
    This will delete `mastersoft` directory under `vendor` directory and properly clean all module references in composer configuration files.
 
 ### Manual Uninstallation
-1. Disable `Mastersoft_AddressWidget` module by following **Disabling/Enabling Module - Magento Command** steps.
+1. Disable `Mastersoft_AddressWidget` module by following [Disabling/Enabling Module](#disablingenabling-module) using **Magento Command** steps.
 
 2. Delete module source directory: 
    - Composer installation: `rm -rf vendor/mastersoft` or 
