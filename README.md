@@ -55,8 +55,8 @@ To configure the Widget Options, here is the full list of available [FeatureOpti
 
 
 ## Disable/Enable Module
-There are 2 ways to disable this module:
-1. In Mastersoft Address Configuration: `Enable Module` field OR
+There are 2 ways to disable/enable this module:
+1. In [Mastersoft Address Configuration](#configuration): `Enable Module` field OR
 2. In Magento Command
    ```javascript
    // Disable module
