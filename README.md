@@ -47,11 +47,13 @@ rm -rf var/cache/* var/page_cache/*
 ```
 
 ## Configuration
-In Magento2 Admin Dashboard of your Store: `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
+In Magento2 Admin Dashboard of your Store: go to `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
 
 **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**
 
 To configure the Widget Options, here is the full list of available [FeatureOption](http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption).
+
+For more Configuration detail, please see the [User Guide](#user-guide#configuration).
 
 
 ## Disable/Enable Module
