@@ -174,26 +174,20 @@ In Magento Admin Dashboard of your Store: `Stores` -> `Configuration` -> `Servic
   Default value: blank/empty. Must be in this format: **username-without-domain:password**.    
   **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**  
 
-- **URL** (Mandatory)
-  
+- **URL** (Mandatory)    
   Default value: `https://hosted.mastersoftgroup.com`
   
-- **Default Widget Options**
-  
-  Generic Widget Options for both AUSTRALIA and NEW ZEALAND.
-  
+- **Default Widget Options**    
+  Generic Widget Options for both AUSTRALIA and NEW ZEALAND.    
   Default value: `{ singleLineHitNumber: 5, caseType: 'TITLE' }`
 
-- **Widget Options for AUSTRALIA**
-
+- **Widget Options for AUSTRALIA**  
   Default value: `{ sot: 'GNAF' }`
 
-- **Widget Options for NEW ZEALAND**
-  
+- **Widget Options for NEW ZEALAND**    
   Default value: `{ sot: 'NZPAF' }`
 
-- **Enable Module**
-  
+- **Enable Module**    
   Default value: `Yes`
 
 All Widget Options must be in valid JSON format and must use single-quote for String value, **DO NOT use double-quote anywhere**. 
@@ -215,8 +209,7 @@ When this `Mastersoft Address Configuration` rule is not checked for that partic
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
 
-E-mail: <support@mastersoftgroup.com>
-
+E-mail: <support@mastersoftgroup.com>  
 Homepage: <https://www.mastersoftgroup.com/>
 
 ## Copyright
