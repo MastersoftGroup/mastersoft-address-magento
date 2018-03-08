@@ -3,7 +3,7 @@ Mastersoft Address Autocomplete extension or module for Magento2
 
 Go to your Magento2 Home (usually is in `/var/www/html` directory).
 
-## Composer Installation
+## Composer Installation (Recommended)
 Make sure git is installed: `apt-get install git`.
 
 ```bash
