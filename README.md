@@ -94,10 +94,14 @@ rm -rf app/code/Mastersoft
 ```
 
 In magento2 database:
-```
+```sql
 DELETE FROM setup_module WHERE module='Mastersoft_AddressWidget';
 DELETE FROM core_config_data WHERE path like 'Mastersoft_AddressWidget/%';
 ```
+
+## User Guide
+For more detail documentation, please refer to this [User Guide](user-guide.md).
+
 
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
