@@ -204,6 +204,16 @@ For Widget Options for certain country, if the same option key is defined in the
 
 To configure the Widget Options, here is the full list of [FeatureOption](http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption) available.
 
+
+## Setting ACL Rules
+
+In Magento Admin Dashboard of your Store: `System` -> `User Roles` -> `Add/Edit Role` -> `Role Resources`.
+
+Select `Custom` from `Resource Access` dropdown menu, you will see `Mastersoft Address Configuration` rule, which now you can assign to admin roles in the system, and those admin roles can be assigned to users.
+
+When this `Mastersoft Address Configuration` rule is not checked for that particular role, whoever is assigned to this role will not be able to see and access the Mastersoft Address Configuration link and page.
+
+
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
 
