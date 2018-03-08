@@ -147,9 +147,7 @@ In Magento Admin Dashboard of your Store: `Stores -> Configuration -> Services -
 
 - **Licence Key** (Mandatory)
   
-  Default value: blank/empty. 
-  
-  Must be in this format: **username-without-domain:password**. 
+  Default value: blank/empty. Must be in this format: **username-without-domain:password**. 
   
   **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**
 
