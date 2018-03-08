@@ -53,7 +53,7 @@ In Magento2 Admin Dashboard of your Store: go to `Stores` -> `Configuration` -> 
 
 To configure the Widget Options, here is the full list of available [FeatureOption](http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption).
 
-For more Configuration detail, please see the [User Guide](#user-guide#configuration).
+For more detail, please see the [Configuration in User Guide](user-guide.md#configuration).
 
 
 ## Disable/Enable Module
