@@ -93,10 +93,17 @@ rm -rf vendor/mastersoft
 rm -rf app/code/Mastersoft
 ```
 
-In magento2 database:
+Remove module data in magento2 database:
 ```sql
 DELETE FROM setup_module WHERE module='Mastersoft_AddressWidget';
 DELETE FROM core_config_data WHERE path like 'Mastersoft_AddressWidget/%';
+```
+
+Remove `Mastersoft_AddressWidget` module reference from `app/etc/config.php` file.
+
+```
+php bin/magento setup:upgrade
+php bin/magento cache:flush
 ```
 
 ## User Guide
