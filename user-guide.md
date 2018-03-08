@@ -87,8 +87,7 @@ These steps must be followed after [Composer Installation](#composer-installatio
 ## Disabling/Enabling Module
 There are 2 ways to disable/enable this module:
 1. Magento Admin   
-   Login to Magento2 Admin Dashboard of your Store: go to Stores -> Configuration -> Services -> Mastersoft Address: 
-   In `Enable Module` field, select `No` to disable module or `Yes` to enable module, and click `Save Config` button.
+   Go to [Mastersoft Address Configuration](#configuration): in `Enable Module` field, select `No` to disable module or `Yes` to enable module, and click `Save Config` button.
 
    By disabling the module via Mastersoft Address Configuration, the module status is still enabled but it will not load the module javascript. 
 
