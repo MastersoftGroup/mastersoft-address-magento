@@ -18,6 +18,8 @@ It is recommended to backup the existing composer.json in your Magento2 Home dir
 ```
 
 ### Composer Installation
+It is available in both [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento) and [Packagist](https://packagist.org/packages/mastersoft/address-widget#dev-master).
+
 1. Make sure git is installed: `apt-get install git`.
 
 2. (Optional) To install from GitHub: add this GitHub Repository link to Magento2 composer.json:
@@ -37,7 +39,7 @@ It is recommended to backup the existing composer.json in your Magento2 Home dir
      }
    }
    ```
-   Since this module is also available in Packagist, there is no need to do this step to install from Packagist.
+   While to install from Packagist, there is no need to do this step.
 
 3. To install the latest release: `composer require mastersoft/address-widget`.
 
