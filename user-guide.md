@@ -170,11 +170,9 @@ Following these steps will fully uninstall this module: clean the module code, d
 ## Configuration
 In Magento Admin Dashboard of your Store: `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
 
-- **Licence Key** (Mandatory)
-  
-  Default value: blank/empty. Must be in this format: **username-without-domain:password**. 
-  
-  **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**
+- **Licence Key** (Mandatory)  
+  Default value: blank/empty. Must be in this format: **username-without-domain:password**.    
+  **Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**  
 
 - **URL** (Mandatory)
   
