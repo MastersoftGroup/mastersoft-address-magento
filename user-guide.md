@@ -78,19 +78,25 @@ These steps must be followed after [Composer Installation](#composer-installatio
 
 3. Register the extension and update the database: `php bin/magento setup:upgrade`.
 
-4. (For Production mode only) Recompile your Magento project: `php bin/magento setup:di:compile`.
+4. **(For Production mode only)** Recompile your Magento project: `php bin/magento setup:di:compile`.
 
-5. Verify `Mastersoft_AddressWidget` module is enabled: `php bin/magento module:status`. It is now should be listed in the Enabled Modules.
+5. **(For Production mode only)** Deploy static files to `pub/static/` directory: 
+   ``` bash
+   php bin/magento setup:static-content:deploy en_AU en_US
+   ```
+   This is very important for Production mode, otherwise your store and store admin will not load correctly because of some js and css files are not found, and users will not be able to load Checkout and edit Customer Address.
 
-6. (Optional) Other commands maybe needed if the page is blank or encounter permission error or other errors:
+6. Verify `Mastersoft_AddressWidget` module is enabled: `php bin/magento module:status`. It is now should be listed in the Enabled Modules.
+
+7. (Optional) Other commands maybe needed if the page is blank or encounter permission error or other errors:
    ``` bash
    php bin/magento cache:clean
    php bin/magento cache:flush
-   chown -R www-data:www-data var/cache
+   chown -R :www-data var/cache
    chmod -R 777 app/ var/ pub/ generated/ 
    rm -rf var/cache/* var/page_cache/*
    ```
-7. Update Mastersoft Address [Configuration](#configuration).
+8. Update Mastersoft Address [Configuration](#configuration).
 
 ## Disabling/Enabling Module
 There are 2 ways to disable/enable this module:
