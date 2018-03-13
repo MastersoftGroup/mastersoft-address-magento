@@ -35,13 +35,20 @@ Verify `Mastersoft_AddressWidget` module has been installed properly: `php bin/m
 
 Next is to [configure Mastersoft Address Configuration](#configuration).
 
+## For Production Mode Only
+These are additional steps after `php bin/magento setup:upgrade` - for `Production` mode only.
+```
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy en_AU en_US
+```
+
 ## Installation Troubleshooting
 
 If the page is blank or encounter permission error or other errors in the store homepage.
 ```bash
 php bin/magento cache:clean
 php bin/magento cache:flush
-chown -R www-data:www-data var/cache
+chown -R :www-data var/cache
 chmod -R 777 app/ var/ pub/ generated/ 
 rm -rf var/cache/* var/page_cache/*
 ```
