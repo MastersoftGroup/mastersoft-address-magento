@@ -57,6 +57,13 @@ It is available in both [GitHub](https://github.com/MastersoftGroup/mastersoft-a
 
 If successful, you should find the module source in `/var/www/html/vendor/mastersoft/address-widget/` directory.
 
+### Updating Existing Composer Installation
+1. Update `./composer.json` with the version to be downloaded: `composer require mastersoft/address-widget:<version>`. For example to get the latest `mastersoft/address-widget` from `dev-master` branch: `composer require mastersoft/address-widget:dev-master`.
+2. Downloading and installing the specified `mastersoft/address-widget` version: `composer update`.
+3. Clear the compiled code and cache in general: `php bin/magento setup:upgrade`.
+
+If you know the files and content that have been updated in this new version, you should be able to check them easily in the module source:  `/var/www/html/vendor/mastersoft/address-widget/` directory.
+
 ### Manual Installation
 1. Download the zip file in `ZIP` directory.
 2. Unzip it in your Magento2 Home directory, it will merge with existing directories and files.
