@@ -26,7 +26,9 @@ composer require mastersoft/address-widget:1.0.2 --no-update
 composer update
 php bin/magento setup:upgrade
 ```
-If you still cannot see the update, try to clean the static files and cache.
+(Optional) Do [Additional Steps - For Production Mode Only](#additional-steps-for-production-mode-only).
+
+If the page is blank or encounter permission error in the admin store or store homepage, see [Installation Troubleshooting](#installation-troubleshooting).
 
 ## Manual Installation
   1. Download the zip file in `ZIP` directory.
