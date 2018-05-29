@@ -19,6 +19,14 @@ Verify `Mastersoft_AddressWidget` module has been installed properly: `php bin/m
 
 Next is to [configure Mastersoft Address Configuration](#configuration).
 
+## Updating Existing Composer Installation
+```bash
+composer require mastersoft/address-widget --no-update
+composer update mastersoft/address-widget
+php bin/magento setup:upgrade
+```
+If you still cannot see the new changes, try to clean the static files and cache.
+
 ## Manual Installation
   1. Download the zip file in `ZIP` directory.
   2. Unzip it in your Magento2 Home directory, it will merge with existing directories and files.
