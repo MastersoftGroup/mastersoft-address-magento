@@ -64,8 +64,15 @@ composer require mastersoft/address-widget:dev-master --no-update
 ```
 2. Downloading and installing the specified `mastersoft/address-widget` version: `composer update`.
 3. Clear the compiled code and cache in general: `php bin/magento setup:upgrade`.
+4. **(For Production mode only)** Recompile your Magento project: `php bin/magento setup:di:compile`.
+5. **(For Production mode only)** Deploy static files to `pub/static/` directory: 
+   ``` bash
+   php bin/magento setup:static-content:deploy en_AU en_US
+   ```
 
-If you know the files and content that have been updated in this new version, you should be able to check them easily in the module source:  `/var/www/html/vendor/mastersoft/address-widget/` directory.
+If you know the files and content that have been updated in this new version, you should be able to verify in the module source:  `/var/www/html/vendor/mastersoft/address-widget/` directory.
+
+If after this installation, the page is blank or encounter permission error or other errors, please follow some commands in [Post Installation](#post-installation).
 
 ### Manual Installation
 1. Download the zip file in `ZIP` directory.
