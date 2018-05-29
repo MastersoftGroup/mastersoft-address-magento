@@ -22,7 +22,7 @@ Next is to [configure Mastersoft Address Configuration](#configuration).
 ## Updating Existing Composer Installation
 For example to update to Mastersoft Address Widget v1.0.2.
 ```bash
-composer require mastersoft/address-widget:<1.0.2> --no-update
+composer require mastersoft/address-widget:1.0.2 --no-update
 composer update
 php bin/magento setup:upgrade
 ```
