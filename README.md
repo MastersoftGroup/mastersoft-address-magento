@@ -1,6 +1,10 @@
 # mastersoft-address-magento
 Mastersoft Address Autocomplete extension or module for Magento2
 
+## Releases
+v1.0.x is compatible for Magento 2.2 (tested with Magento 2.2.4)
+v.1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
+
 Go to your Magento2 Home (usually is in `/var/www/html` directory).
 
 ## Composer Installation (Recommended)
@@ -133,7 +137,7 @@ For more detail documentation, please refer to this [User Guide](user-guide.md).
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
 
-E-mail: <support@mastersoftgroup.com>  
+E-mail: <msg.support@gbgplc.com>  
 Homepage: <https://www.mastersoftgroup.com/>
 
 
