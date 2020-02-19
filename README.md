@@ -1,13 +1,14 @@
 # mastersoft-address-magento
-Mastersoft Address Autocomplete extension or module for Magento2
+Mastersoft Address Autocomplete extension or module for Magento2.
 
 ## Releases
-v1.0.x is compatible for Magento 2.2 (tested with Magento 2.2.4)
-v.1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
+- v1.0.x is compatible for Magento 2.2 (tested with Magento 2.2.4)
+- v.1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
 
+## Installation
 Go to your Magento2 Home (usually is in `/var/www/html` directory).
 
-## Composer Installation (Recommended)
+### Composer Installation (Recommended)
 Make sure git is installed: `apt-get install git`.
 
 ```bash
@@ -23,7 +24,7 @@ Verify `Mastersoft_AddressWidget` module has been installed properly: `php bin/m
 
 Next is to [configure Mastersoft Address Configuration](#configuration).
 
-## Updating Existing Composer Installation
+### Updating Existing Composer Installation
 For example to update to Mastersoft Address Widget v1.0.2.
 ```bash
 composer require mastersoft/address-widget:1.0.2 --no-update
@@ -34,7 +35,7 @@ php bin/magento setup:upgrade
 
 If the page is blank or encounter permission error in the admin store or store homepage, see [Installation Troubleshooting](#installation-troubleshooting).
 
-## Manual Installation
+### Manual Installation
   1. Download the zip file in `ZIP` directory.
   2. Unzip it in your Magento2 Home directory, it will merge with existing directories and files.
 
@@ -50,14 +51,14 @@ Verify `Mastersoft_AddressWidget` module has been installed properly: `php bin/m
 
 Next is to [configure Mastersoft Address Configuration](#configuration).
 
-## Additional Steps - For Production Mode Only
+### Additional Steps - For Production Mode Only
 These are additional steps after `php bin/magento setup:upgrade` - for `Production` mode only.
 ```
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy en_AU en_US
 ```
 
-## Installation Troubleshooting
+### Installation Troubleshooting
 
 If the page is blank or encounter permission error or other errors in the store homepage.
 ```bash
@@ -78,7 +79,7 @@ To configure the Widget Options, here is the full list of available [FeatureOpti
 For more detail, please see the [Configuration in User Guide](user-guide.md#configuration).
 
 
-## Disable/Enable Module
+### Disable/Enable Module
 There are 2 ways to disable/enable this module:
 1. In [Mastersoft Address Configuration](#configuration): `Enable Module` field OR
 2. In Magento Command
@@ -93,7 +94,8 @@ There are 2 ways to disable/enable this module:
    php bin/magento module:status
    ```
 
-## Composer Uninstallation
+## Uninstallation
+### Composer Uninstallation
 **This will work only if the module has been installed using Composer.**
 
 ```bash
@@ -103,8 +105,7 @@ php bin/magento setup:upgrade
 composer remove mastersoft/address-widget
 ```
 
-
-## Manual Uninstallation
+### Manual Uninstallation
 
 ```javascript
 php bin/magento module:disable Mastersoft_AddressWidget --clear-static-content
@@ -142,5 +143,5 @@ Homepage: <https://www.mastersoftgroup.com/>
 
 
 ## Copyright
-(c) 2018 Mastersoft
+(c) 2020 Mastersoft
 
