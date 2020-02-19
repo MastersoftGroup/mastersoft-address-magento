@@ -3,7 +3,7 @@ Mastersoft Address Autocomplete extension or module for Magento2.
 
 ## Releases
 - v1.0.x is compatible for Magento 2.2 (tested with Magento 2.2.4)
-- v.1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
+- v1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
 
 ## Installation
 Go to your Magento2 Home (usually is in `/var/www/html` directory).
