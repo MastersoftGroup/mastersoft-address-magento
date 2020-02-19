@@ -11,6 +11,10 @@ Mastersoft Address Autocomplete extension module for Magento2
 - Control user authorisation via Access Control List (ACL) rules
 - Enable/Disable the module in Magento2 Admin
 
+## Releases
+- v1.0.x is compatible for Magento 2.2 (tested with Magento 2.2.4)
+- v1.1.x is compatible for Magento 2.3 (tested with Magento 2.3.4 and 2.2.4)
+
 ## Installation
 Go to your Magento2 Home (usually is in `/var/www/html` directory).
 
@@ -232,11 +236,11 @@ When this `Mastersoft Address Configuration` rule is not checked for that partic
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
 
-E-mail: <support@mastersoftgroup.com>  
+E-mail: <msg.support@gbgplc.com>  
 Homepage: <https://www.mastersoftgroup.com/>
 
 ## Copyright
-(c) 2018 Mastersoft
+(c) 2020 Mastersoft
 
 
 
