@@ -5,6 +5,8 @@ Mastersoft Address Autocomplete extension module for Magento2
 
 ## Features
 - Autocomplete billing and shipping address in Checkout page
+   - Support all different Magento payment methods
+   - Support Braintree Payments extension for credit card
 - Autocomplete address in My Account page for Customer's billing address and shipping address
 - Only enabled when country is selected as Australia or New Zealand
 - Configuration for address lookup options, such as Source of Truth
