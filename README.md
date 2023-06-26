@@ -72,7 +72,7 @@ rm -rf var/cache/* var/page_cache/*
 ## Configuration
 In Magento2 Admin Dashboard of your Store: go to `Stores` -> `Configuration` -> `Services` -> `Mastersoft Address`.
 
-**Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**
+**Get your FREE licence key [here](https://www.loqate.com/anz/register/).**
 
 To configure the Widget Options, here is the full list of available [FeatureOption](http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption).
 
@@ -138,10 +138,10 @@ For more detail documentation, please refer to this [User Guide](user-guide.md).
 ## Support
 If you have any questions or issues with this module, open an issue on [GitHub](https://github.com/MastersoftGroup/mastersoft-address-magento/issues). Alternatively you can contact us via e-mail or via our website below.
 
-E-mail: <msg.support@gbgplc.com>  
+E-mail: <customer.support@gbgplc.com>  
 Homepage: <https://www.mastersoftgroup.com/>
 
 
 ## Copyright
-(c) 2020 Mastersoft
+(c) 2023 Mastersoft
 
